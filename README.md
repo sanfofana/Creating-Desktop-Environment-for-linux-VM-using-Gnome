@@ -1,4 +1,4 @@
-# Creating-Desktop-Environment-for-linux-VM-using-Gnome
+# Creating Desktop Environment for linux VM using Gnome
 
 - Creating a Gnome Desktop enviroment to add on your of Linux shell after creating a linux instance.
   - This may be very useful when need to use a linux Desktop environment when you only have access to CLI.
