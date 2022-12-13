@@ -16,8 +16,8 @@
 - ssh username@IP
 - Enter Password 
 
-- First update the linux system
-    - Command: sudo apt-get update and apt dist-upgrade
+####  Update the linux system
+       sudo apt-get update and apt dist-upgrade
 
 - Execute the following Commands:
     - apt-get install xrdp
