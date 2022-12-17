@@ -17,12 +17,12 @@
 - Enter Password 
 
 ####  Update the linux system
-       sudo apt-get update and apt dist-upgrade
+       sudo apt-get update && sudo apt dist-upgrade
 
 - Execute the following Commands:
     - apt-get install xrdp
     - systemctl enable xrdp
-    - echo xfce4-session(right angle bracket)~/.xsession
+    - echo xfce4-session>~/.xsession
     - service xrdp restart
 
 ## 3-Finally install GNOME Desktop
