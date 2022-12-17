@@ -17,13 +17,38 @@
 - Enter Password 
 
 ####  Update the linux system
+
        sudo apt-get update && sudo apt dist-upgrade
 
 - Execute the following Commands:
     - apt-get install xrdp
+    
+    <br/>
+<img src="https://github.com/sanfofana/multipurpfiles/blob/main/Screen%20Shot%202022-12-17%20at%2012.48.19%20PM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
     - systemctl enable xrdp
+    
     - echo xfce4-session>~/.xsession
+
+
+<img src="https://github.com/sanfofana/multipurpfiles/blob/main/Screen%20Shot%202022-12-17%20at%201.02.26%20PM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+    
     - service xrdp restart
 
 ## 3-Finally install GNOME Desktop
+
        apt-get install -f gdm3
+       
+<img src="https://github.com/sanfofana/multipurpfiles/blob/main/Screen%20Shot%202022-12-17%20at%201.02.45%20PM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+## 4- Connect to your graphical interfaces using RDP 
+- Note: After completing all the previous steps, make sure to create and allow an RDP connection to your in Azure Ressource group.
+- You can do this by creating an inbound rule in NSG, then you can connect using RDP.
+
+<img src="https://github.com/sanfofana/multipurpfiles/blob/main/Screen%20Shot%202022-12-17%20at%201.17.19%20PM.png" height="45%" width="70%" alt="Disk Sanitization Steps"/>
+
+<img src="https://github.com/sanfofana/multipurpfiles/blob/main/Screen%20Shot%202022-12-17%20at%201.26.04%20PM.png" height="45%" width="70%" alt="Disk Sanitization Steps"/>
+<br />
