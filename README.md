@@ -22,7 +22,7 @@
 - Execute the following Commands:
     - apt-get install xrdp
     - systemctl enable xrdp
-    - echo xfce4-session(right angle bracket)~/.xsession   (as shown in video. Check video)
+    - echo xfce4-session(right angle bracket)~/.xsession
     - service xrdp restart
 
 ## 3-Finally install GNOME Desktop
